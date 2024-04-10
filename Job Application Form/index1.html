@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body background="./IMG.jpg">
+    <form action="">
+      <h2 align="center">Job Application</h2>
+      <hr width="70%" color="black" />
+      <table align="center" cellspacing="15">
+        <tr>
+          <td>
+            <label for="fname">Full Name :</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="fname"
+              placeholder="enter your name"
+              size="42"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jtitle">Job Title :</label></td>
+          <td>
+            <input
+              type="text"
+              id="jtitle"
+              placeholder="enter your job title"
+              size="42"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="ccompany">Current Company :</label></td>
+          <td>
+            <input
+              type="text"
+              id="ccompany"
+              placeholder="enter your company name"
+              size="42"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="cnumber">Contact Number :</label></td>
+          <td>
+            <select name="number" id="">
+              <option value="number">+91</option>
+              <option value="number">+44</option>
+              <option value="number">+55</option>
+            </select>
+            <input
+              type="text"
+              id="cnumber"
+              placeholder="enter your number"
+              size="34"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email :</label></td>
+          <td>
+            <input
+              type="email"
+              placeholder="enter your email"
+              id="email"
+              size="42"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Work Status :</td>
+          <td>
+            <label for="ftime"
+              ><input type="radio" id="ftime" name="type" />Full Time</label
+            >
+            <label for="ptime"
+              ><input type="radio" id="ptime" name="type" />Part Time</label
+            ><label for="perdim"
+              ><input type="radio" id="perdim" name="type" />Per Dim</label
+            ><label for="other"
+              ><input type="radio" id="other" name="type" />Other</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><label for="salary">Salary :</label></td>
+          <td>
+            <input
+              type="text"
+              name=""
+              id="salary"
+              placeholder="salary in digits"
+            />
+            <select name="salaryy" id="salary">
+              <option value="Rupees">Rupees</option>
+              <option value="Dollar">Dollar</option>
+            </select>
+            <select name="salaryy" id="salary">
+              <option value="Yearly">Yearly</option>
+              <option value="Monthly">Monthly</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="experience">Experience :</label></td>
+          <td>
+            <input
+              type="text"
+              id="experience"
+              size="42"
+              placeholder="enter your experience"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="clocation">Current Location :</label></td>
+          <td>
+            <input
+              type="text"
+              id="clocation"
+              size="42"
+              placeholder="enter your location"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address :</label></td>
+          <td>
+            <textarea
+              name="address_slot"
+              id="address"
+              cols="41"
+              rows="7"
+              placeholder="enter your address"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="file">Upload File :</label></td>
+          <td><input type="file" id="file" /></td>
+        </tr>
+        <tr>
+          <td align="center"><input type="submit" value="Submit Now" /></td>
+          <td align="center"><input type="reset" value="Reset" /></td>
+        </tr>
+      </table>
+    </form>
+    <hr width="70%" color="black" />
+  </body>
+</html>
